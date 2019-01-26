@@ -1,5 +1,6 @@
 
 function getFirstSelector(selector){
-     var first = document.querySelectorAll(selector);
+     var first = document.getElementsByClassName('nested').querySelector(selector);
      return first;
+
 }
